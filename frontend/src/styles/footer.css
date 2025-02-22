@@ -1,0 +1,21 @@
+.footer {
+  width: 100vw; /* Ensures full viewport width */
+  background: linear-gradient(90deg, #0044cc, #0066ff);
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 16px;
+}

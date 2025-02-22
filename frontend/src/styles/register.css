@@ -1,0 +1,49 @@
+/* register.css */
+.register-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: white;
+  }
+  
+  .register-box {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+  }
+  
+  .register-box h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+  
+  .register-box form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .register-input {
+    width: 94%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .register-box p {
+    margin-top: 10px;
+  }
+  
+  .register-box p a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .register-box p a:hover {
+    text-decoration: underline;
+  }
+  
