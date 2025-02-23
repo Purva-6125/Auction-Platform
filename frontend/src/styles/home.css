@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: white;
+    background-color: #FFBD14;
 }
 
 /* Styling for the content box */
@@ -28,31 +28,30 @@
 
 /* Primary button */
 .btn-primary {
-    background-color: #0044cc;
+    background-color: #553B06;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
+    border: 2px solid black; /* Added black border */
     text-decoration: none;
     transition: 0.3s;
 }
 
 /* Secondary button */
 .btn-secondary {
-    background-color: #0066ff;
+    background-color: #553B06;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
+    border: 2px solid black; /* Ensure a visible black border */
     text-decoration: none;
     transition: 0.3s;
 }
 
 /* Hover effects */
-.btn-primary:hover {
-    color: black;
-    background-color: #002a80;
-}
-
+.btn-primary:hover,
 .btn-secondary:hover {
     color: black;
-    background-color: #004ecb;
+    background-color: #aa750b;
+    border-color: black; /* Keep border black on hover */
 }

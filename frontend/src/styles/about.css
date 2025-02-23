@@ -1,9 +1,12 @@
+body{
+  background-color: #FFBD14;
+}
 .about-page {
   display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
   min-height: 100vh; /* Full viewport height */
-  background: white; /* Light background */
+  background: #FFBD14; /* Light background */
 }
 
 .about-container {

@@ -1,6 +1,7 @@
 .footer {
   width: 100vw; /* Ensures full viewport width */
-  background: linear-gradient(90deg, #0044cc, #0066ff);
+  /* background: linear-gradient(90deg, #0044cc, #0066ff); */
+  background-color: #553B06;
   color: white;
   text-align: center;
   padding: 15px 0;
