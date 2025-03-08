@@ -14,29 +14,17 @@ const MyBids = () => {
           </tr>
         </thead>
         <tbody>
-          <tr className="outbid">
-            <td>Vintage Watch</td>
-            <td>₹2600</td>
-            <td>₹2800</td>
-            <td className="status">Outbid</td>
-          </tr>
           <tr className="winning">
             <td>Antique Painting</td>
             <td>₹12500</td>
             <td>₹12500</td>
-            <td className="status">Winning</td>
-          </tr>
-          <tr className="outbid">
-            <td>Sports Car Model</td>
-            <td>₹5500</td>
-            <td>₹6000</td>
-            <td className="status">Outbid</td>
+            <td className="status">On Bidding</td>
           </tr>
           <tr className="winning">
             <td>Gold Necklace</td>
             <td>₹18500</td>
             <td>₹18500</td>
-            <td className="status">Winning</td>
+            <td className="status">On Bidding</td>
           </tr>
         </tbody>
       </table>

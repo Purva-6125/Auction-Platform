@@ -1,0 +1,168 @@
+/* Reset margins & padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F4B400; /* Golden Yellow */
+    padding-top: 60px; /* Space for fixed navbar */
+}
+
+/* Navbar Styling */
+.navbar {
+    width: 100%; /* Full width */
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #553B06;
+    padding: 0 50px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* Logo */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Navigation Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Notifications Icon */
+.notifications {
+    position: relative;
+}
+
+.notifications::after {
+    content: "•";
+    color: red;
+    font-size: 18px;
+    position: absolute;
+    top: 5px;
+    right: -10px;
+}
+
+/* Profile Dropdown */
+.profile-menu {
+    position: relative;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background: white;
+    top: 100%;
+    left: 0;
+    min-width: 120px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.dropdown li {
+    list-style: none;
+}
+
+.dropdown li a {
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown li a:hover {
+    background: #F4B400; /* Golden Yellow */
+}
+
+/* Show dropdown on hover */
+/* .profile-menu:hover .dropdown {
+    display: block;
+} */
+
+/* Profile Dropdown
+.profile-menu {
+    position: relative;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background: white;
+    top: 100%;
+    left: 0;
+    min-width: 120px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.dropdown li {
+    list-style: none;
+}
+
+.dropdown li a {
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown li a:hover {
+    background: #F4B400; 
+}
+
+
+.profile-menu:hover .dropdown {
+    display: block;
+} */
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .navbar {
+      padding: 0 20px;
+    }
+  
+    .nav-links {
+      gap: 10px;
+    }
+  
+    .nav-links a {
+      font-size: 16px;
+      padding: 8px 12px;
+    }
+  }
+  

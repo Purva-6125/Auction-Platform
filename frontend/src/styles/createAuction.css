@@ -1,0 +1,64 @@
+/* Container */
+.create-auction-container {
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Title */
+.create-auction-container h2 {
+    text-align: center;
+    color: #553B06;
+}
+
+/* Form Styling */
+.create-auction-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.create-auction-container label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #553B06;
+}
+
+.create-auction-container input,
+.create-auction-container textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #553B06;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.create-auction-container textarea {
+    height: 100px;
+    resize: none;
+}
+
+/* File Input */
+.create-auction-container input[type="file"] {
+    padding: 5px;
+}
+
+/* Button */
+.create-auction-container button {
+    background: #553B06;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background 0.3s ease-in-out;
+}
+
+.create-auction-container button:hover {
+    background: #8B5E2E;
+}

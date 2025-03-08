@@ -8,7 +8,6 @@ const BuyerProfile = () => {
     email: "johndoe@example.com",
     phone: "+91 9876543210",
     address: "Mumbai, Maharashtra",
-    profilePic: "https://via.placeholder.com/120",
   });
 
   // State to manage edit mode
@@ -29,7 +28,6 @@ const BuyerProfile = () => {
   return (
     <div className="profile-container">
       <div className="profile-card">
-        <img src={user.profilePic} alt="Profile" className="profile-pic" />
 
         {isEditing ? (
           <>

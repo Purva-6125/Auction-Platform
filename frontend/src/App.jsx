@@ -56,25 +56,61 @@
 // };
 
 // export default App;
+
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import BuyerNavbar from "./components/BuyerNavbar";
+// import BuyerHome from "./pages/BuyerHome";
+// import BuyerMyBids from "./pages/BuyerMyBids";
+// import BuyerMyWins from "./pages/BuyerMyWins";
+// import BuyerProfile from "./pages/BuyerProfile";
+// import Logout from "./pages/Logout";
+// import Footer from "./components/Footer";
+// import Home from "./pages/Home";
+
+// function App() {
+//   return (
+//     <Router>
+//       <BuyerNavbar />
+      
+//       <Routes>
+//         <Route path="/" element={<BuyerHome />} />
+//         <Route path="/buyer/home" element={<BuyerHome />} />
+//         <Route path="/buyer/my-bids" element={<BuyerMyBids />} />
+//         <Route path="/buyer/my-wins" element={<BuyerMyWins />} />
+//         <Route path="/buyer/profile" element={<BuyerProfile />} />
+//         <Route path="/logout" element={<Logout />} />
+//         <Route path="/home" element={<Home />} />
+//       </Routes>
+
+//       <Footer/>
+//     </Router>
+//   );
+// }
+
+// export default App;
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import BuyerNavbar from "./components/BuyerNavbar";
-import BuyerHome from "./pages/BuyerHome";
-import BuyerMyBids from "./pages/BuyerMyBids";
-import BuyerMyWins from "./pages/BuyerMyWins";
-import BuyerProfile from "./pages/BuyerProfile";
-import Logout from "./pages/Logout";
+import SellerNavbar from "./components/SellerNavbar";
+import CreateAuction from "./pages/CreateAuction";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <Router>
-      <BuyerNavbar />
+      <SellerNavbar />
+      
       <Routes>
+        {/* <Route path="/" element={<BuyerHome />} />
         <Route path="/buyer/home" element={<BuyerHome />} />
         <Route path="/buyer/my-bids" element={<BuyerMyBids />} />
         <Route path="/buyer/my-wins" element={<BuyerMyWins />} />
         <Route path="/buyer/profile" element={<BuyerProfile />} />
         <Route path="/logout" element={<Logout />} />
+        <Route path="/home" element={<Home />} /> */}
+        <Route path="/create/auction" element={<CreateAuction />} />
       </Routes>
+
+      <Footer/>
     </Router>
   );
 }

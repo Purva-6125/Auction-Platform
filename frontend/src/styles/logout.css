@@ -1,15 +1,16 @@
 .logout-button {
-  padding: 10px 15px;
   background-color: #dc3545; /* Bootstrap danger red */
   color: white;
-  border: none;
   cursor: pointer;
   font-size: 16px;
   font-weight: bold;
   border-radius: 5px;
   transition: background-color 0.3s ease-in-out;
-}
-
-.logout-button:hover {
-  background-color: #b52b38; /* Darker red */
+  
+  /* Remove margin-top and use flexbox for positioning */
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the button */
+  padding: 10px 20px;
 }

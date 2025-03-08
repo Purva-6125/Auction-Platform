@@ -3,16 +3,18 @@
   padding: 20px;
   background: #f8f9fa;
   min-height: 100vh;
+  background-color: #FFBD14;
 }
 
 .mybids-container h2 {
-  font-size: 26px;
-  margin-bottom: 20px;
+  font-size: 32px;
+  margin-top: 50px;
   color: #333;
+  font-weight: bold;
 }
 
 .bids-table {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   border-collapse: collapse;
   background: white;
@@ -28,16 +30,16 @@
 }
 
 .bids-table th {
-  background-color: #007bff;
+  background-color: #553B06;
   color: white;
 }
 
 .bids-table tr.winning {
-  background-color: #d4edda;
+  background-color: #f8f8f8;
 }
 
 .bids-table tr.outbid {
-  background-color: #f8d7da;
+  background-color: #f8f8f8;
 }
 
 .status {
